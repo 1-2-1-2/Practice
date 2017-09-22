@@ -1,0 +1,117 @@
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+.star{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal;
+    font-size:1.0em;
+    text-align:center;
+    color:whitesmoke;
+}
+.star >img{
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 100%;
+}
+.star-1{
+    position: relative;
+    padding-top:15px;
+    padding-bottom:15px; 
+}
+.star.bg-img{
+    opacity: 0.70;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.media-1 > i{
+    position:relative;
+    padding-left:15px;
+    padding-top: 25px;
+    color:white;
+    font-size:25px;
+}
+.media, .media-body{
+    overflow: hidden;
+}
+.media-item{
+    margin-right: 0px;
+    background-color: #F3EDB3;
+  }
+  .media-item >i {
+    color:#594a42;
+    font-size: 5em;
+    margin-top:15px;
+    margin-left:10px;
+  }
+.row{
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+  [class*='col-'] {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media (min-width: 48em) {
+    [class*='col-'] {
+        float: left;
+        width:100%;
+    }
+    /* Column First */
+    .col-1-2{
+        width: 50%;
+    }
+}
+
+.btn{
+    display:inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border:1px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 1.313em;
+    font-weight: bold;
+    border-radius: 4px; 
+    transition: all 0.3s ease 0s;
+  }
+  .btn-primary{
+    background: #8DC63F;
+    border-color: #8DC63F;
+    color: white;
+    margin-bottom: 13px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.background-1{
+    background-color: #e7e1d7;
+}
+.media-content{
+margin-left: 100px;
+margin-top: -50px;
+margin-right:25px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size:4em;
+    color:whitesmoke;
+    position:relative;
+}
+.hero-subtitle{
+    margin-top:auto;
+    font-size:2em;
+    font-weight: bold;
+    color:whitesmoke;
+    position:relative;
+}
