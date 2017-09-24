@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Slanted container</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .slantedDivA {
+            position: relative;
+            width: 1380px;
+            height: 300px;
+            background: rgba(200, 40, 40, 1);
+            box-sizing: border-box;
+            padding: 30px;
+            color:#fff;
+            margin-bottom: 100px;
+        }
+
+        .slantedDivA::after {
+            position: absolute;
+            content: '';
+            background:grey;
+            z-index:-1;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            transform-origin: top left;
+            transform: skewY(4deg);
+        }
+        .slantedDivB {
+            position: relative;
+            width: 1380px;
+            height: 300px;
+            background: rgba(100, 40, 40, 10);
+            box-sizing: border-box;
+            padding: 30px;
+            color:#fff;
+            margin-bottom: 100px;
+        }
+
+        .slantedDivB::after {
+            position: absolute;
+            content: '';
+            background:inherit;
+            z-index: -1;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            transform-origin: top left;
+            transform: skewY(4deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slantedDivA ">
+        <h1>AUR BHai kya Haal HAi</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti ab dolores adipisci cumque quas vel harum id veritatis
+        debitis magni, iusto nemo, aliquid eius eaque eveniet numquam odio nobis quisquam. Tempora, ut consequuntur? Fugiat
+        ipsa sit consectetur? Quas voluptas, provident, dignissimos possimus, similique beatae est officia veniam eius neque
+        rem.
+    </div>
+    <div class="slantedDivA ">
+
+    </div>
+</body>
+
+</html>
